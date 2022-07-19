@@ -13,3 +13,37 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 12.5rem;
+  width: 34.375rem;
+  background: transparent;
+  border-radius: 0.188rem;
+  box-shadow: 0rem 0.5rem 0.625rem rgba(0, 0, 0, 0.5);
+}
+
+.clock div {
+  height: 10.625rem;
+  width: 9.375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.9);
+  box-shadow: 0.3125rem 0.3125rem 0.9375rem rgba(0, 0, 0, 0.7);
+  border-radius: 0.4375rem;
+  letter-spacing: 0.1875rem;
+}
+
+.clock span {
+  font-weight: bolder;
+  font-size: 3.75rem;
+}
+
+.clock span.time {
+  font-size: 0.625rem;
+}
