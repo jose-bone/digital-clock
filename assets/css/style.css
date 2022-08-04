@@ -16,11 +16,9 @@ body {
     rgba(130, 87, 229, 0.850577731092437) 50%,
     rgba(4, 211, 97, 1) 100%
   );
-  /** 
-  background-image: url(/assets/images/background.jpg);
+  background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  */
 }
 
 .clock {
